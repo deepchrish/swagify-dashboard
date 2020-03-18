@@ -1,0 +1,488 @@
+// =================================
+// Custom CSS
+// =================================
+body {
+    color: #222f3e;
+}
+
+.text-grey {
+    color: #747d8c !important;
+}
+
+.sw-upload-img {
+    .con-img-upload {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.v-nav-menu .scroll-area-v-nav-menu>.vs-sidebar-group {
+    padding: 0 !important;
+}
+
+.theme-semi-dark {
+    .v-nav-menu {
+        .scroll-area-v-nav-menu {
+            .vs-sidebar-group.vs-sidebar-group-active>.group-header {
+                background: #e2e0ed;
+            }
+
+            .vs-sidebar-group.vs-sidebar-group-open>.group-header {
+                background: #e2e0ed;
+            }
+        }
+    }
+}
+
+.sw-btn-default {
+    button {
+        border-radius: 3px;
+        box-shadow: 0 1px 0 0 rgba(22, 29, 37, 0.05);
+        border: solid 1px #c4cdd5;
+        margin: 0;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f9fafb)) !important;
+        color: #2c3e50 !important;
+
+        &:hover {
+            -webkit-box-shadow: 0 8px 25px -8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 25px -8px rgba(0, 0, 0, 0.2);
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#e6e6e6)) !important;
+        }
+    }
+}
+
+.sw-btn-primary {
+    border-radius: 3px;
+
+    button {
+        border-radius: 3px;
+    }
+}
+
+.vs-sidebar,
+.vs-sidebar.vs-sidebar-reduce:hover:not(.vs-sidebar-reduceNotHoverExpand) {
+    max-width: 230px;
+}
+
+.sw-dash-bg {
+    box-shadow: 0 1px 3px 0 rgba(63, 63, 68, 0.15),
+        0 0 0 1px rgba(63, 63, 68, 0.05);
+    padding: 0;
+    background: #fff;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+
+    .sw-grey-text {
+        border-bottom: 1px solid #dfe3e8;
+        padding: 18px 10px;
+
+        h3 {
+            font-weight: 400;
+            font-size: 17px;
+        }
+    }
+
+    .vs-tabs-position-left {
+        background: #f4f6f8;
+
+        .vs-tabs--ul {
+            border-right: none;
+            // border-left: 2px solid transparent;
+        }
+
+        .vs-tabs--li {
+            border-right: 1px solid #dfe3e8;
+            border-bottom: 1px solid #dfe3e8;
+            background: #fff;
+
+            .vs-tabs--btn {
+                text-align: left;
+
+                span {
+                    border-left: 2px solid transparent;
+                }
+            }
+        }
+
+        .activeChild {
+            border-left: 2px solid #8b44f5;
+        }
+    }
+
+    .line-vs-tabs {
+        display: none;
+    }
+
+    .con-slot-tabs {
+        background: #fff;
+    }
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.sw-left-img {
+    float: right;
+    position: relative;
+    left: 15%;
+}
+
+.sw-right-img {
+    float: left;
+    position: relative;
+    right: 15%;
+}
+
+.sw-cards {
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px 0 #ecf0f1, inset 0 -1px 1px 0 #ecf0f1, inset 1px 0 1px 0 #ecf0f1, inset -1px 0 1px 0 #ecf0f1;
+    background-color: #ffffff;
+
+    .sw-card-img {
+        img {
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+            max-height: 120px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+// Storehub page table START
+.sw-table {
+    background: #fff;
+    border-radius: 3px;
+    padding: 0;
+    /* border: 1px solid #ddd; */
+    box-shadow: 0 1px 3px 0 rgba(63, 63, 68, 0.15),
+        0 0 0 1px rgba(63, 63, 68, 0.05);
+
+    .header-table {
+        padding: 0 10px;
+    }
+
+    table {
+        thead {
+            th {
+                white-space: nowrap;
+
+                .vs-table-text {
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        td {
+            border-top: 1px solid #ddd;
+            white-space: nowrap;
+        }
+    }
+}
+
+.sw-btns-group {
+    button {
+        border-radius: 3px;
+        box-shadow: 0 1px 0 0 rgba(22, 29, 37, 0.05);
+        border: solid 1px #c4cdd5;
+        background-image: linear-gradient(to bottom, #ffffff, #f9fafb) !important;
+        margin: 0;
+        color: #2c3e50 !important;
+        padding: 0.6rem 0.9rem !important;
+
+        &:hover {
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#e6e6e6)) !important
+        }
+    }
+
+    a {
+        margin: 7px 10px;
+
+        &:hover {
+            color: #000;
+        }
+    }
+}
+
+.vs-table--tbody-table .tr-values:not(.activeEdit):not(.tr-expandedx):not(.hoverFlat):hover {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    background: #f2f2f2;
+}
+
+.sw-active {
+    font-size: 16px;
+    color: #50b83c;
+    background: rgba(80, 184, 60, 0.21);
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 27px;
+}
+
+.sw-inactive {
+    font-size: 16px;
+    color: #de3618;
+    background-color: rgba(222, 54, 24, 0.18);
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 27px;
+}
+
+.total-product {
+    display: inline-block;
+    vertical-align: middle;
+    float: initial;
+    padding: 0;
+
+    li {
+        list-style: none;
+        display: inline;
+        border-radius: 100%;
+
+        img {
+            width: 35px;
+            height: 35px;
+            border-radius: 100%;
+            padding: 1px 1px;
+            object-fit: cover;
+            background: #fff;
+            border: 1px solid #e9ecef;
+        }
+
+        &:nth-child(2) {
+            position: relative;
+            left: -20px;
+        }
+
+        &:nth-child(3) {
+            position: relative;
+            left: -40px;
+        }
+
+        &:nth-child(4) {
+            position: relative;
+            left: -60px;
+        }
+    }
+}
+
+.sw-search {
+    width: 100%;
+
+    .vs-con-input {
+        .vs-input--placeholder {
+            line-height: 2.2;
+        }
+
+        .vs-input--icon {
+            font-size: 1.3rem;
+            top: 10px;
+        }
+    }
+}
+
+// Storehub page table END
+
+//   OrdersPage CSS START
+.sw-proname {
+    max-width: 10rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.sw-blue {
+    border-radius: 100%;
+    color: #2874f0;
+    font-size: 10px;
+
+    span {
+        font-family: "Roboto",
+            Helvetica,
+            Arial,
+            sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &::before {
+        background: #2874f0;
+        border-radius: 100%;
+        margin-right: 3px;
+        position: relative;
+        bottom: 1px;
+    }
+}
+
+.sw-green {
+    border-radius: 100%;
+    color: #27ae60;
+    font-size: 10px;
+
+    span {
+        font-family: "Roboto",
+            Helvetica,
+            Arial,
+            sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &::before {
+        background: #27ae60;
+        border-radius: 100%;
+        margin-right: 3px;
+        position: relative;
+        bottom: 1px;
+    }
+}
+
+.sw-orange {
+    border-radius: 100%;
+    color: #ff7f50;
+    font-size: 10px;
+
+    span {
+        font-family: "Roboto",
+            Helvetica,
+            Arial,
+            sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &::before {
+        background: #ff7f50;
+        border-radius: 100%;
+        margin-right: 3px;
+        position: relative;
+        bottom: 1px;
+    }
+}
+
+.sw-delivered {
+    border-radius: 100%;
+    color: #4834d4;
+    font-size: 10px;
+
+    span {
+        font-family: "Roboto",
+            Helvetica,
+            Arial,
+            sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &::before {
+        background: #4834d4;
+        border-radius: 100%;
+        margin-right: 3px;
+        position: relative;
+        bottom: 1px;
+    }
+}
+
+.sw-cancelled {
+    border-radius: 100%;
+    color: #bf0711;
+    font-size: 10px;
+
+    span {
+        font-family: "Roboto",
+            Helvetica,
+            Arial,
+            sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &::before {
+        background: #bf0711;
+        border-radius: 100%;
+        margin-right: 3px;
+        position: relative;
+        bottom: 1px;
+    }
+}
+
+//   OrdersPage CSS END
+
+//   Storehub page START
+.sw-cards {
+    box-shadow: inset 0 1px 1px 0 #ecf0f1,
+        inset 0 -1px 1px 0 #ecf0f1,
+        inset 1px 0 1px 0 #ecf0f1,
+        inset -1px 0 1px 0 #ecf0f1;
+    min-height: 285px;
+    position: relative;
+}
+
+//   Storehub page END
+@media only screen and (max-width: 575px) {
+    .sw-mobile-btn {
+        left: 0;
+        right: 0;
+        width: 100%;
+        border-radius: 0;
+        position: fixed;
+        z-index: 1024;
+        bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .bn-welcome-msg {
+        border-radius: 10px;
+        padding: 15px 10px 20px;
+        -webkit-box-shadow: 3px 3px 10px -3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 3px 3px 10px -3px rgba(0, 0, 0, 0.75);
+        box-shadow: 2px 2px 9px -3px rgba(0, 0, 0, 0.75);
+        background: #6441a5;
+        color: #f8f8f8;
+        margin: 20px 0 !important;
+
+        h1 {
+            color: #f8f8f8;
+        }
+    }
+
+    .sw-headings {
+        h2 {
+            font-size: 20px;
+        }
+    }
+
+    .sw-dash-bg {
+        .vs-tabs-position-left {
+            .con-ul-tabs {
+                width: 100%;
+            }
+
+            display: block;
+
+            .vs-tabs--li {
+                display: inline-block;
+                white-space: normal;
+                width: 33.33%;
+
+                .vs-tabs--btn {
+                    text-align: center;
+                }
+            }
+
+            .activeChild {
+                border-left: transparent;
+            }
+        }
+    }
+}

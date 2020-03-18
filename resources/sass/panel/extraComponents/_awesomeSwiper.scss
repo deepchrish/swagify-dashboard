@@ -1,0 +1,17 @@
+/*=========================================================================================
+  File Name: _awesomeSwiper.scss
+  Description: Styles for awesome swiper plugin
+==========================================================================================*/
+
+
+.swiper-pagination-bullet-active {
+    // background: rgba(var(--vs-primary),1) !important;
+    background-image: linear-gradient(to bottom, #6441a5, #54348d) !important;
+}
+
+.swiper-pagination-progressbar {
+    .swiper-pagination-progressbar-fill {
+        // background: rgba(var(--vs-primary),1) !important;
+        background-image: linear-gradient(to bottom, #6441a5, #54348d) !important;
+    }
+}

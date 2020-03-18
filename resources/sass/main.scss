@@ -1,0 +1,18 @@
+/*=========================================================================================
+  File Name: main.scss
+  Description: Main scss file. Imports other scss partials from 'panel' folder
+==========================================================================================*/
+
+@import "panel/variables";
+@import "panel/layout";
+@import "panel/typography";
+@import "panel/misc";
+@import "panel/extraComponents";
+@import "panel/themes";
+@import "panel/transitions";
+
+@import "panel/customClasses";
+
+// Vuesax fixes and enhancments
+@import "panel/fixesVuesax";
+@import "panel/custom";
